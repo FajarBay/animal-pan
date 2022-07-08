@@ -1,0 +1,35 @@
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cover {
+    background: black;
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-main {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Courier New', monospace;
+  }
