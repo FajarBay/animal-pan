@@ -1,12 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <head>
+        <title>Pendaftaran Online</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../assets/bootstrap.min.css">
+        <link rel="stylesheet" href="../main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+          /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+          .navbar {
+            margin-bottom: 50px;
+            border-radius: 0;
+          }
+          
+          /* Remove the jumbotron's default bottom margin */ 
+           .jumbotron {
+            margin-bottom: 0;
+          }
+         
+          /* Add a gray background color and some padding to the footer */
+          footer {
+            background-color: #f2f2f2;
+            padding: 25px;
+          }
+
+          .lis {
+            margin-top: 30px;
+            margin-bottom: 50px;
+            list-style-type: circle;
+            font-size: 18px;
+          }
+
+          .deskripsi {
+            font-family: Tahoma, sans-serif;
+          }
+        </style>
+      </head>
 <body>
-    Pendaftaran Online
+    <div class="container" style="width: 90%; margin-top: 50px;">
+        <button type="button" class="btn btn-info" style="margin-bottom:20px ;"><a class="nodecor" style="text-decoration: none;" href="../index.html">Kembali</a></button>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="panel panel-danger">
+                    <div class="panel-heading text-center">Turorial Pendaftaran Menggunakan Panti Nugroho Mobile</div>
+                    <div class="panel-body">
+                    <video width="100%" controls>
+                        <source src="../assets/pendaftaran.mp4" type="video/mp4">
+                    </video>
+                    </div>
+                    <div class="panel-footer text-center">Panti Nugroho Mobile</div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="panel panel-success">
+                    <div class="panel-heading text-center">Penjelasan Singkat</div>
+                    <div class="panel-body">
+                    <div class="deskripsi col-sm-12">
+                        <h5>Panti Nugroho Mobile merupakan aplikasi mobile berbasis android, fungsi utama aplikasi ini adalah untuk melakukan pendaftaran secara online.<br><br>
+                            Baik pasien lama maupun pasien baru dapat menggunakan aplikasi ini untuk mendaftar ke poliklinik, selain itu juga dapat mendaftarkan anggota keluarga
+                            pemilik akun jika ingin melakukan pemeriksaan di poliklinik RSUD Panti Nugroho.
+                        </h5>
+                        <h3 style="margin-bottom: 20px;">
+                            Menu Pada Aplikasi Panti Nugroho Mobile :
+                        </h3>
+                        <div class="col-sm-4">
+                        <img src="../assets/1.jpg" alt="" style="width: 90% ;">
+                        </div>
+                        <div class="col-sm-8">
+                            <ul class="lis">
+                                <li>Registrasi Online</li>
+                                <li>Jadwal Poli</li>
+                                <li>Antrian Poli</li>
+                                <li>Info Kamar</li>
+                                <li>Kontak Aduan</li>
+                                <li>Info Lainnya</li>
+                                <li>KritikSaran</li>
+                                <li>Profil Akun</li>
+                            </ul>
+                            <br>
+                        </div>
+                        <h5>
+                            Pendaftaran menggunakan Panti Nugroho Mobile bisa dilakukan dari H-7 sampai H-1 sebelum pemeriksaan, selain itu juga akan ditampilkan detail tanggal dan
+                            jam akan periksa, sehingga pasien <b>tidak perlu menunggu lama.</b>
+                        </h5>
+                    </div>
+                    </div>
+                    <div class="panel-footer text-center">Panti Nugroho Mobile</div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="panel panel-info">
+                    <div class="panel-heading text-center">Unduh Panti Nugroho Mobile</div>
+                    <div class="panel-body">
+                    <div class="col-sm-9">
+                        <h3>Untuk menggunakan aplikasi Panti Nugroho Mobile, silahkan scan barcode disamping untuk mengunduh aplikasinya.</h3>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="../assets/qrcode.png" alt="" style="width:100% ;">
+                    </div>
+                    </div>
+                    <div class="panel-footer text-center">Panti Nugroho Mobile</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
