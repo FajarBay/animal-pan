@@ -5,7 +5,8 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-    font-family: sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    text-rendering:optimizeLegibility;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     /* overflow:   scroll; */
@@ -3031,11 +3032,12 @@ th {
     line-height: 1.42857143;
     vertical-align: top;
     border-top: 1px solid #ddd
+    /* border: none; */
 }
 
 .table>thead>tr>th {
     vertical-align: bottom;
-    border-bottom: 2px solid #ddd
+    border-bottom: 1px solid #ddd
 }
 
 .table>caption+thead>tr:first-child>td,

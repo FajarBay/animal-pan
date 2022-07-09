@@ -1,12 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ANIMAL-PAN</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/bootstrap.min.css">
+    <link rel="stylesheet" href="../main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .row {
+            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+          }
+        /* Remove the navbar's default rounded borders and increase the bottom margin */
+        .navbar {
+            /* margin-bottom: 50px; */
+            border-radius: 0;
+        }
+
+        /* Remove the jumbotron's default bottom margin */
+        .jumbotron {
+            margin-bottom: 0;
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+
+        /* Add a gray background color and some padding to the footer */
+        footer {
+            background-color: #f2f2f2;
+            padding: 25px;
+        }
+
+        .no {
+            width: 20px;
+            text-align: center;
+        }
+
+        .nama {
+            width: 350px;
+        }
+
+        .hari {
+            width: 300px;
+        }
+
+        .head {
+            text-align: center;
+            background-color: #e80783;
+            color: white;
+            border-color: #e80783;
+        }
+
+        .table td,
+        .table th {
+            border: none;
+        }
+
+        table.table.table-striped {
+            border: 1px solid #e80783;
+        }
+
+        .tengah {
+            border: 2px solid #e80783;
+            background-color: #e80783;
+            color: white;
+            margin-top: 25px;
+            margin-left: 500px;
+            margin-right: 500px;
+            padding: 5px;
+            text-align: center;
+            font-weight: 400;
+        }
+    </style>
 </head>
+
 <body>
-    Jadwal Praktek
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>JADWAL PRAKTEK DOKTER</h1>
+            <p>UPTD RSUD PANTI NUGROHO</p>
+            <a class="nodecor" style="text-decoration: none;" href="../index.html"><button type="button"
+                    class="btn btn-info">Kembali</button></a>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <H3>
+                    <marquee direction="left" style="color:white;">UPTD RSUD PANTI NUGROHO PURBALINGGA - MELAYANI
+                        SEPENUH HATI</marquee>
+                </H3>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="width: 90%;">
+        <div class="row">
+            <div class="col-sm-6">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th colspan="4" class="head">Poli Kebidanan dan Kandungan</th>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="no">No.</th>
+                            <th scope="col" class="nama">Nama</th>
+                            <th scope="col" class="hari">Hari</th>
+                            <th scope="col">Pukul</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="no">1</th>
+                            <td>dr. Dewa, M. Biomed, Sp. OG</td>
+                            <td>Senin, Rabu, Jum’at</td>
+                            <td>08.00-14.00</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th>
+                            <td></td>
+                            <td>Selasa, Kamis, Sabtu</td>
+                            <td>15.00-19.00</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="no">2</th>
+                            <td>dr. Rijasa, M. Biomed, Sp. OG</td>
+                            <td>Senin, Rabu, Jum’at</td>
+                            <td>13.00-18.00</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th>
+                            <td></td>
+                            <td>Selasa, Kamis, Sabtu</td>
+                            <td>08.00-14.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- Poli Anak -->
+                <table class="table table-sm table-striped">
+                    <thead>
+                        <tr>
+                            <th colspan="4" class="head">Poli Anak</th>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="no">No.</th>
+                            <th scope="col" class="nama">Nama</th>
+                            <th scope="col" class="hari">Hari</th>
+                            <th scope="col">Pukul</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="no">1</th>
+                            <td>dr. Dikky, Sp. A</td>
+                            <td>Senin s.d. Sabtu</td>
+                            <td>10.00-14.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- Poli Dalam -->
+                <table class="table table-sm table-striped">
+                    <thead>
+                        <tr>
+                            <th colspan="4" class="head">Poli Penyakit Dalam</th>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="no">No.</th>
+                            <th scope="col" class="nama">Nama</th>
+                            <th scope="col" class="hari">Hari</th>
+                            <th scope="col">Pukul</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="no">1</th>
+                            <td>dr. Rano, Sp. PD-FINASIM</td>
+                            <td>Senin, Rabu, Jum’at</td>
+                            <td>08.00-12.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- Poli Neurologi ( Saraf ) -->
+                <table class="table table-sm table-striped">
+                    <thead>
+                        <tr>
+                            <th colspan="4" class="head">Poli Neurologi ( Saraf )</th>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="no">No.</th>
+                            <th scope="col" class="nama">Nama</th>
+                            <th scope="col" class="hari">Hari</th>
+                            <th scope="col">Pukul</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="no">1</th>
+                            <td>dr. Farida Rahmi Ramadhani, Sp. N</td>
+                            <td>Senin, Rabu, Jum’at</td>
+                            <td>14.00-16.00</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th>
+                            <td></td>
+                            <td>Selasa, Kamis</td>
+                            <td>09.00-12.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-6">
+                <!-- Poli Bedah -->
+                <table class="table table-sm table-striped">
+                    <thead>
+                        <tr>
+                            <th colspan="4" class="head">Poli Bedah</th>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="no">No.</th>
+                            <th scope="col" class="nama">Nama</th>
+                            <th scope="col" class="hari">Hari</th>
+                            <th scope="col">Pukul</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="no">1</th>
+                            <td>dr. Endro, M.Si Med, Sp. B</td>
+                            <td>Senin, Rabu, Jum’at</td>
+                            <td>07.30-09.30</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="no">2</th>
+                            <td>dr. Samuel Zacharias, Sp. B</td>
+                            <td>Selasa, Kamis, Sabtu</td>
+                            <td>07.00-10.00</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="no">3</th>
+                            <td>dr. Rijasa, M. Biomed, Sp. OG</td>
+                            <td>Sabtu</td>
+                            <td>13.15-15.30</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- Poli Gigi & Mulut -->
+                <table class="table table-sm table-striped">
+                    <thead>
+                        <tr>
+                            <th colspan="4" class="head">Poli Gigi & Mulut</th>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="no">No.</th>
+                            <th scope="col" class="nama">Nama</th>
+                            <th scope="col" class="hari">Hari</th>
+                            <th scope="col">Pukul</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="no">1</th>
+                            <td>drg. Apriyani Suryaningsih</td>
+                            <td>Senin s.d. Sabtu</td>
+                            <td>08.00-12.00</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="no">2</th>
+                            <td>drg. Novi Mediana Risharyanti</td>
+                            <td>Senin s.d. Sabtu</td>
+                            <td>13.00-16.00</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="no">3</th>
+                            <td>drg. Dyah Ajeng Satiti</td>
+                            <td>Senin s.d. Sabtu</td>
+                            <td>16.00-20.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- Poli THT-KL -->
+                <table class="table table-sm table-striped">
+                    <thead>
+                        <tr>
+                            <th colspan="4" class="head">Poli THT-KL</th>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="no">No.</th>
+                            <th scope="col" class="nama">Nama</th>
+                            <th scope="col" class="hari">Hari</th>
+                            <th scope="col">Pukul</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="no">1</th>
+                            <td>dr. Tutie Ferika U., Sp. THT-KL., M. Kes.</td>
+                            <td>Selasa, Kamis</td>
+                            <td>09.00-12.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- Poli Kulit & Kelamin -->
+                <table class="table table-sm table-striped">
+                    <thead>
+                        <tr>
+                            <th colspan="4" class="head">Poli Kulit & Kelamin</th>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="no">No.</th>
+                            <th scope="col" class="nama">Nama</th>
+                            <th scope="col" class="hari">Hari</th>
+                            <th scope="col">Pukul</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="no">1</th>
+                            <td>dr. Schandra Purnamawati, Sp. DV</td>
+                            <td>Senin s.d. Rabu</td>
+                            <td>12.30-15.30</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <h3 class="tengah"><b>*Poli Anak</b> Hari Sabtu pada minggu ke 2 dan ke 4 <b>LIBUR</b></h3>
+    </div>
 </body>
+
 </html>

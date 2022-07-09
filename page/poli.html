@@ -1,12 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>POLIKLINIK</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/bootstrap.min.css">
+    <link rel="stylesheet" href="../main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default rounded borders and increase the bottom margin */
+        .navbar {
+            margin-bottom: 120px;
+            border-radius: 0;
+        }
+
+        /* Remove the jumbotron's default bottom margin */
+        .jumbotron {
+            margin-bottom: 0;
+            padding-top: 30px;
+            padding-bottom: 50px;
+        }
+
+        /* Add a gray background color and some padding to the footer */
+        footer {
+            background-color: #f2f2f2;
+            padding: 25px;
+        }
+    </style>
 </head>
+
 <body>
-    Poli
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>POLIKLINIK</h1>
+            <p>UPTD RSUD PANTI NUGROHO</p>
+            <a class="nodecor" style="text-decoration: none;" href="../index.html"><button type="button"
+                class="btn btn-info">Kembali</button></a>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <H3>
+                    <marquee direction="left" style="color:white;">UPTD RSUD PANTI NUGROHO PURBALINGGA - MELAYANI
+                        SEPENUH HATI</marquee>
+                </H3>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <a href="page/profil.html">
+                <div class="col-sm-3">
+                    <div class="panel panel-info">
+                        <div class="panel-heading text-center">Poli Kebidanan dan Kandungan</div>
+                        <div class="panel-body"><img src="../assets/poli/pregnant.png" class="img-responsive img-center"
+                                style="width:25%" alt="Image"></div>
+                        <div class="panel-footer text-center">Lihat Detail</div>
+                    </div>
+                </div>
+            </a>
+            <a href="page/layanan.html">
+                <div class="col-sm-3">
+                    <div class="panel panel-danger">
+                        <div class="panel-heading text-center">Poli Anak</div>
+                        <div class="panel-body"><img src="../assets/poli/girl.png" class="img-responsive img-center"
+                                style="width:25%" alt="Image"></div>
+                        <div class="panel-footer text-center">Lihat Detail</div>
+                    </div>
+                </div>
+            </a>
+            <a href="page/poli.html">
+                <div class="col-sm-3">
+                    <div class="panel panel-success">
+                        <div class="panel-heading text-center">Poli Penyakit Dalam</div>
+                        <div class="panel-body"><img src="../assets/poli/physiology.png" class="img-responsive img-center"
+                                style="width:25%" alt="Image"></div>
+                        <div class="panel-footer text-center">Lihat Detail</div>
+                    </div>
+                </div>
+            </a>
+            <a href="page/dokter.html">
+                <div class="col-sm-3">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading text-center">Poli Bedah</div>
+                        <div class="panel-body"><img src="../assets/poli/surgery.png" class="img-responsive img-center"
+                                style="width:25%" alt="Image"></div>
+                        <div class="panel-footer text-center">Lihat Detail</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div><br>
+
+    <div class="container">
+        <div class="row">
+            <a href="page/jadwal.html">
+                <div class="col-sm-3">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading text-center">Poli Gigi & Mulut</div>
+                        <div class="panel-body"><img src="../assets/poli/dental-care.png" class="img-responsive img-center"
+                                style="width:25%" alt="Image"></div>
+                        <div class="panel-footer text-center">Lihat Detail</div>
+                    </div>
+                </div>
+            </a>
+            <a href="page/online.html">
+                <div class="col-sm-3">
+                    <div class="panel panel-success">
+                        <div class="panel-heading text-center">Poli Neurologi ( Saraf )</div>
+                        <div class="panel-body"><img src="../assets/poli/neurology.png" class="img-responsive img-center"
+                                style="width:25%" alt="Image"></div>
+                        <div class="panel-footer text-center">Lihat Detail</div>
+                    </div>
+                </div>
+            </a>
+            <a href="page/galeri.html">
+                <div class="col-sm-3">
+                    <div class="panel panel-danger">
+                        <div class="panel-heading text-center">Poli THT-KL</div>
+                        <div class="panel-body"><img src="../assets/poli/ear.png" class="img-responsive img-center"
+                                style="width:25%" alt="Image"></div>
+                        <div class="panel-footer text-center">Lihat Detail</div>
+                    </div>
+                </div>
+            </a>
+            <a href="page/aduan.html">
+                <div class="col-sm-3">
+                    <div class="panel panel-info">
+                        <div class="panel-heading text-center">Poli Kulit & Kelamin</div>
+                        <div class="panel-body"><img src="../assets/poli/spots.png" class="img-responsive img-center"
+                                style="width:25%" alt="Image"></div>
+                        <div class="panel-footer text-center">Lihat Detail</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div><br><br>
+
+    <footer class="footer container-fluid text-center">
+        <form class="form-inline">
+            ANIMAL PAN - UPTD RSUD PANTI NUGROHO PURBALINGGA
+        </form>
+    </footer>
+
 </body>
+
 </html>
