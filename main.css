@@ -24,6 +24,15 @@
     font-weight: 600;
 }
 
+.nodecor {
+    text-decoration: none;
+    color: white;
+}
+
+.nodecor:hover {
+    color: white;
+}
+
 .footer {
     background-color: #f2f2f2;
     padding: 25px;
